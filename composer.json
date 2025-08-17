@@ -1,0 +1,20 @@
+{
+    "name": "s-alexsan/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "autoload": {
+        "psr-4": {
+            "SAlexsan\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexsander da Silva",
+            "email": "alexsans@outlook.com.br"
+        }
+    ],
+    "require": {
+        "symfony/css-selector": "^7.3",
+        "guzzlehttp/guzzle": "^7.9",
+        "symfony/dom-crawler": "^7.3"
+    }
+}
