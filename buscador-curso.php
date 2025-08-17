@@ -1,7 +1,6 @@
 <?php
 
 require 'vendor/autoload.php';
-require 'src/Buscador.php';
 
 use SAlexsan\BuscadorCursos\Buscador;
 use GuzzleHttp\Client;
